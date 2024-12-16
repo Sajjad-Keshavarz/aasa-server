@@ -1,15 +1,21 @@
 # Companion Server for the react-native-passkeys repository
 
-This is a simple server that can be used to store and retrieve passkeys for the react-native-passkeys repository. It is a simple Node.js server that uses Express.js to handle requests.
+This is a simple server that serves the mandatory platform files for the `react-native-passkeys` repository.
 
-It can server the aasa file for the react-native-passkeys ios app and the assetslinks.json file for the android app.
+It can serve the [AASA](https://developer.apple.com/documentation/xcode/supporting-associated-domains) file for the iOS app and the [`assetslinks.json`](https://developer.android.com/training/app-links/verify-android-applinks) file for the Android app.
 
-You need to add:
+## Update files with your own info
 
-1. Your apple team id in the aasa file
-2. You android sha256 fingerprint in the assetslinks.json file
+1. Add your Apple team id instead `add_your_apple_team_id_here` in the `apple-app-site-association` file
+2. Add your Android keystore sha256 fingerprint instead `add_your_sha256_cert_fingerprints_here` in the `assetslinks.json` file.
 
-## Installation
+To extract the sha256 fingerprint from your keystore, you can use the following command:
+
+```bash
+keytool -list -v -keystore <path-to-debug-keystore> -alias androiddebugkey -storepass android -keypass android
+```
+
+## Run the server
 
 1. Clone the repository
 2. Run `npm install` to install the dependencies
