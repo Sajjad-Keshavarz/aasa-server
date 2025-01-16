@@ -6,10 +6,8 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.safeglobal.reactnativepasskeys",
-      "sha256_cert_fingerprints": [
-        // add_your_sha256_cert_fingerprints_here"
-      ]
+      "package_name": "add_your_package_name",
+      "sha256_cert_fingerprints": ["add_your_sha256_cert_fingerprints_here"]
     }
   }
 ]
