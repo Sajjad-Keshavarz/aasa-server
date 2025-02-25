@@ -1,4 +1,29 @@
 {
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "2JSH6BZUTY.com.zarb.xyz"
+        ],
+        "components": [
+          {
+            "/": "/link/*",
+            "comment": "Matches all /link URLs"
+          },
+          {
+            "/": "/l/*",
+            "comment": "Matches all /l URLs"
+          }
+        ]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "2JSH6BZUTY.com.zarb.xyz"
+    ]
+  },
   "webcredentials": {
     "apps": [
       "2JSH6BZUTY.com.zarb.xyz"
