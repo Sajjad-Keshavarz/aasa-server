@@ -4,7 +4,7 @@
     "details": [
       {
         "appIDs": [
-          "2JSH6BZUTY.com.zarb.xyz"
+          "2JSH6BZUTY.com.zarb.money"
         ],
         "components": [
           {
@@ -21,12 +21,12 @@
   },
   "activitycontinuation": {
     "apps": [
-      "2JSH6BZUTY.com.zarb.xyz"
+      "2JSH6BZUTY.com.zarb.money"
     ]
   },
   "webcredentials": {
     "apps": [
-      "2JSH6BZUTY.com.zarb.xyz"
+      "2JSH6BZUTY.com.zarb.money"
     ]
   }
 }
